@@ -25,7 +25,10 @@ if (local.proxy) {
 
 mix.tailwind();
 mix.js('assets/js/app.js', 'js');
+// mix.js('assets/js/page-home.js', 'js'); // use this format to break down js files per page/template
+
 mix.sass('assets/scss/app.scss', 'css');
+// mix.sass('assets/scss/page-home.scss', 'css'); // use this format to break down css files per page/template
 
 if (mix.inProduction()) {
     mix.versionHash();
