@@ -24,5 +24,5 @@ include __DIR__ . '/../includes/site-settings.php';
 // \WpTailwindCssThemeBoilerplate\View::render('home/hero/hero', get_field("hero"));
 
 // footer
-\WpTailwindCssThemeBoilerplate\View::render('global/footer/footer-nav');
+// \WpTailwindCssThemeBoilerplate\View::render('global/footer/footer-nav');
 \WpTailwindCssThemeBoilerplate\View::render('global/footer/footer', $page_setting);
